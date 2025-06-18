@@ -27,75 +27,8 @@ An intelligent AI-powered assistant designed specifically for International Bacc
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/ib-student-assistant.git
-   cd ib-student-assistant
-   ```
-
-2. **Set up virtual environment**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Start Ollama server**
-   ```bash
-   ollama serve
-   ```
-
-5. **Download required models**
-   ```bash
-   ollama pull qwen3:latest
-   ollama pull deepseek-r1:14b-qwen-distill-q4_K_M
-   ```
-
-### Running the Application
-
-**Option 1: Simple startup (Recommended)**
-```bash
-python run_app.py
-```
-
-**Option 2: Status checker with cleanup**
-```bash
-python start_app.py
-```
-
-# IB Student Assistant 🎓
-
-An intelligent AI-powered assistant designed specifically for International Baccalaureate (IB) students. This system provides comprehensive support for IB programme queries, Internal Assessment (IA) feedback, and academic guidance using advanced multi-agent AI architecture.
-
-## ✨ Features
-
-### Core Capabilities
-- **Intelligent Query Processing**: Multi-agent system for sophisticated question handling
-- **IA Assessment**: Automated analysis and feedback for Internal Assessments
-- **Document Analysis**: Support for PDF and DOCX file uploads
-- **Subject-Specific Guidance**: Tailored advice for all IB subjects
-- **Real-time Chat Interface**: Interactive web-based interface
-
-### AI Architecture
-- **Fast Agent (Qwen3)**: Quick query classification and routing
-- **RAG Agent (DeepSeek-R1)**: Deep reasoning with document retrieval
-- **Consensus Agent (DeepSeek-R1)**: Response review and refinement
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Python 3.8+
-- Ollama server running locally
-- Required AI models (automatically downloaded)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/ib-student-assistant.git
-   cd ib-student-assistant
+   git clone "your git link"
+   cd IBGPT
    ```
 
 2. **Set up virtual environment**
@@ -234,12 +167,7 @@ python manage.py --help
 - `status`: Check system health
 - `test`: Run comprehensive tests
 
-## 📊 Performance
-
-- **Response Time**: < 10 seconds for complex queries
-- **Document Retrieval**: Sub-second search across 1000+ documents
-- **Concurrent Users**: Supports multiple simultaneous sessions
-- **Accuracy**: High-quality responses validated against IB standards
+==
 
 ## 🔧 Troubleshooting
 
@@ -266,25 +194,9 @@ ollama list
 pip install -r requirements.txt
 ```
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
 ## 📝 License
 
 This project is licensed under the MIT License.
 
-## 🆘 Support
-
-For support and questions:
-- Open an issue on GitHub
-- Check the documentation
-- Contact the development team
-
----
-
-**Made with ❤️ for IB students worldwide**
